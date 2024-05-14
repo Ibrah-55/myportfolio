@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-4">
       <div className="mx-auto flex items-center justify-center">
-        <p className="mr-2">© 2023 Name?</p>
+        <p className="mr-2">© 2023 Jarvis</p>
 		<a
-          href="https://github.com/ElonMusk2002/my-portfolio"
+          href="https://github.com/Ibrah-55"
           target="_blank"
           rel="noopener noreferrer"
         >

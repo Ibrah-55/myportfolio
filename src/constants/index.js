@@ -102,31 +102,58 @@ import {
 	// },
   ];
   
-  const testimonials = [
+  const skills = [
 	{
-	  testimonial:
-	  "I thought it was impossible to make a website as beautiful as our product, but Name? proved me wrong.",
-	  name: "Sara Lee",
-	  designation: "CFO",
-	  company: "Acme Co",
-	  image: "https://randomuser.me/api/portraits/women/4.jpg",
+	  title:"Frontend",
+	  sl1: "JavaScript(React, Nextjs, Svelte), jQuery",
+	  sl2: " Tailwind",
+	  sl3: "RESTful Services/APIs",
+	  sl4: "Cross-Browser Development",
 	},
 	{
-	  testimonial:
-		"I've never met a web developer who truly cares about their clients' success like Name? does.",
-	  name: "Chris Brown",
-	  designation: "COO",
-	  company: "DEF Corp",
-	  image: "https://randomuser.me/api/portraits/men/5.jpg",
-	},
-	{
-	  testimonial:
-		"After Name? optimized our website, our traffic increased by 50%. We can't thank them enough!",
-	  name: "Lisa Wang",
-	  designation: "CTO",
-	  company: "456 Enterprises",
-	  image: "https://randomuser.me/api/portraits/women/6.jpg",
-	},
+		title:"Backend",
+		sl1: "Python(Django, Flask)",
+		sl2: " Javascript(Nodejs, Express)",
+		sl3: "Cloud computing9 AWS, Google Cloud Platform)",
+		sl4: "Testing and debugging",
+	  },
+	  {
+		title:"Database",
+		sl1: "Sql",
+		sl2: " Database Management",
+		sl3: "Mongo",
+		sl4: "Query Optimization",
+	  },
+	  {
+		title:"Tools & Methods",
+		sl1: "Git, GitHub",
+		sl2: "Heroku, Vercel",
+		sl3: "Firebase, cloudflare",
+		sl4: "Chrome Dev Tools, SEO",
+	  },
+	  {
+		title:"Proffesional",
+		sl1: "Remote Pair-Programming",
+		sl2: " Adaptability skills",
+		sl3: "Communication skills",
+		sl4: " attention to detail",
+	  },
+	// {
+	//   testimonial:
+	// 	"I've never met a web developer who truly cares about their clients' success like Name? does.",
+	//   name: "Chris Brown",
+	//   designation: "COO",
+	//   company: "DEF Corp",
+	//   image: "https://randomuser.me/api/portraits/men/5.jpg",
+	// },
+	// {
+	//   testimonial:
+	// 	"After Name? optimized our website, our traffic increased by 50%. We can't thank them enough!",
+	//   name: "Lisa Wang",
+	//   designation: "CTO",
+	//   company: "456 Enterprises",
+	//   image: "https://randomuser.me/api/portraits/women/6.jpg",
+	// },
   ];
   
   const projects = [
@@ -196,4 +223,4 @@ import {
 	},
   ];
   
-  export { services, experiences, testimonials, projects };
+  export { services, experiences, skills, projects };

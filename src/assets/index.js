@@ -15,7 +15,7 @@ import starbucks from "./company/starbucks.webp";
 import tesla from "./company/tesla.webp";
 
 import fitness from "./fitness.png";
-import kenya from "./dall-e.jpg";
+import kenya from "./kenya.webp";
 import quiz from "./quiz.jpg";
 
 export {
