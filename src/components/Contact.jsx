@@ -33,16 +33,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_ryoescj',
-        'template_18ztqgq',
+        'service_tqmn5jd',
+        'template_4y8uhgs',
         {
           from_name: form.name,
-          to_name: "Yaroslav",
+          to_name: "Ibrahim",
           from_email: form.email,
-          to_email: "aroslavdmitriev80@gmail.com",
+          to_email: "tjarvis4040@gmail.com",
           message: form.message,
         },
-        'ZhXLvLiMEd1j_otNw'
+        'QkMZGoZ9_FEoXm6bC'
       )
       .then(
         () => {
@@ -87,7 +87,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -98,7 +98,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -109,7 +109,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say? Please write your email in the end'
+              placeholder='Your message'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
