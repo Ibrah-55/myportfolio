@@ -2,7 +2,7 @@ import {
 	backend,
 	creator,
 	web,
-	nodejs,
+	django,
 	meta,
 	starbucks,
 	tesla,
@@ -29,76 +29,77 @@ import {
   
   const services = [
 	{
-	  title: "Web Developer",
+	  title: "Fullstack Developer",
 	  icon: web,
 	},
 	{
-	  title: "NodeJS Native Developer",
-	  icon: nodejs,
+	  title: "Django Developer",
+	  icon: django,
 	},
+	{
+		title: "Frontend Developer",
+		icon: creator,
+	  },
 	{
 	  title: "Backend Developer",
 	  icon: backend,
 	},
-	{
-	  title: "Frontend Developer",
-	  icon: creator,
-	},
+	
   ];
   
   const experiences = [
 	{
-	  title: "React.js Developer",
-	  company_name: "Starbucks",
+	  title: "Software Engineer Intern",
+	  company_name: "Grip Foundation",
+	  Location: "Remote - India",
 	  icon: starbucks,
 	  iconBg: "#383E56",
-	  date: "March 2020 - April 2021",
+	  date: "Feb 2023 - April 2023",
 	  points: [
 		"Developing and maintaining web applications using React.js and other related technologies.",
 		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
 	  ],
 	},
 	{
-	  title: "React Native Developer",
-	  company_name: "Tesla",
+	  title: "Junior Developer",
+	  company_name: "Decops LLC",
+	  Location: "Remote - USA",
 	  icon: tesla,
 	  iconBg: "#E6DEDD",
-	  date: "Jan 2021 - Feb 2022",
+	  date: "May 2023 - December 2023",
 	  points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
+		"Worked on the development of a cutting-edge visual workflow automation solution with a talented team of developers.",
+		" Participated in the creation of the automation platform, which included Blockchain and generative AI technology to automate numerous company procedures",
+		"Also actively participated in code reviews and debugging sessions to make sure the functionality and quality of the code were up to par.",
 	  ],
 	},
-	{
-	  title: "Web Developer",
-	  company_name: "Shopify",
-	  icon: shopify,
-	  iconBg: "#383E56",
-	  date: "Jan 2022 - Jan 2023",
-	  points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
-	  ],
-	},
-	{
-	  title: "Full stack Developer",
-	  company_name: "Meta",
-	  icon: meta,
-	  iconBg: "#E6DEDD",
-	  date: "Jan 2023 - Present",
-	  points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
-	  ],
-	},
+	// {
+	//   title: "Web Developer",
+	//   company_name: "Shopify",
+	//   icon: shopify,
+	//   iconBg: "#383E56",
+	//   date: "Jan 2022 - Jan 2023",
+	//   points: [
+	// 	"Developing and maintaining web applications using React.js and other related technologies.",
+	// 	"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+	// 	"Implementing responsive design and ensuring cross-browser compatibility.",
+	// 	"Participating in code reviews and providing constructive feedback to other developers.",
+	//   ],
+	// },
+	// {
+	//   title: "Full stack Developer",
+	//   company_name: "Meta",
+	//   icon: meta,
+	//   iconBg: "#E6DEDD",
+	//   date: "Jan 2023 - Present",
+	//   points: [
+	// 	"Developing and maintaining web applications using React.js and other related technologies.",
+	// 	"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+	// 	"Implementing responsive design and ensuring cross-browser compatibility.",
+	// 	"Participating in code reviews and providing constructive feedback to other developers.",
+	//   ],
+	// },
   ];
   
   const testimonials = [
@@ -130,9 +131,9 @@ import {
   
   const projects = [
 	{
-	  name: "3D Customizer With ChatGPT",
+	  name: "Fitness Application",
 	  description:
-		"This project allows you to make your own t-shirt, customize it, choose a color and image upload and ask ChatGPT to make your own t-shirt by the prompt.",
+		"Helpful application for workout. A user can get ideas of what exercise to carry out and also learn hot to do them and find exercises that are similar for a productive workout.",
 	  tags: [
 		{
 		  name: "react",

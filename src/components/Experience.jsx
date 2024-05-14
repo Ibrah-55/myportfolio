@@ -16,7 +16,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+        Welcome to my professional journey, where each experience has shaped my skills and expertise.
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience.
@@ -64,8 +64,17 @@ const ExperienceCard = ({ experience }) => {
           style={{ margin: 0 }}
         >
           {experience.company_name}
+          <p
+          className='text-secondary text-[16px] font-semibold'
+          style={{ margin: 0 }}
+        >
+
+        </p>
+          {experience.Location}
+
         </p>
       </div>
+      
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
         {experience.points.map((point, index) => (

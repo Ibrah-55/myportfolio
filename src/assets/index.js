@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo4.png";
 import backend from "./backend.png";
 import creator from "./creator.webp";
 import mobile from "./mobile.webp";
@@ -7,7 +7,7 @@ import github from "./github.webp";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import nodejs from "./tech/nodejs.webp";
+import django from "./tech/django.png";
 
 import meta from "./company/meta.webp";
 import shopify from "./company/shopify.webp";
@@ -28,7 +28,7 @@ export {
   github,
   menu,
   close,
-  nodejs,
+  django,
   meta,
   shopify,
   starbucks,
