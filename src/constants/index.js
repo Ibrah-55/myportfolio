@@ -3,13 +3,14 @@ import {
 	creator,
 	web,
 	django,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
+	simpfi,
+	sparks,
+	other,
 	quiz,
+	links,
 	fitness,
 	kenya,
+	weather,
   } from "../assets";
   
   export const navLinks = [
@@ -50,9 +51,9 @@ import {
   const experiences = [
 	{
 	  title: "Software Engineer Intern",
-	  company_name: "Grip Foundation",
+	  company_name: "Sparks Foundation Network",
 	  Location: "Remote - India",
-	  icon: starbucks,
+	  icon: sparks,
 	  iconBg: "#383E56",
 	  date: "Feb 2023 - April 2023",
 	  points: [
@@ -65,7 +66,7 @@ import {
 	  title: "Junior Developer",
 	  company_name: "Decops LLC",
 	  Location: "Remote - USA",
-	  icon: tesla,
+	  icon: simpfi,
 	  iconBg: "#E6DEDD",
 	  date: "May 2023 - December 2023",
 	  points: [
@@ -221,6 +222,69 @@ import {
 	  image: kenya,
 	  source_code_link: "https://github.com/Ibrah-55/Kenya-Airways-Booking/tree/main",
 	},
+	{
+		name: "Installation hub ",
+		description:
+		  " Provides developers with access to a wide range of free resources and tools that they can use in their work. These resources include links to free software, libraries & frameworks",
+		tags: [
+		  {
+			name: "Remix",
+			color: "blue-text-gradient",
+		  },
+		  {
+			name: "NodeJS",
+			color: "green-text-gradient",
+		  },
+		  {
+			name: "Prisma",
+			color: "pink-text-gradient",
+		  },
+		],
+		image: links,
+		source_code_link: "https://github.com/Ibrah-55/All-Installation",
+	  },
+	  {
+		name: "Laundry Forecast ",
+		description:
+		  "App to view weather updates, allows search of places and get your current location. Also helps you decide when to carry out laundry based on that weelk weather forecast.",
+		tags: [
+		  {
+			name: "Threejs",
+			color: "blue-text-gradient",
+		  },
+		  {
+			name: "Express",
+			color: "green-text-gradient",
+		  },
+		  {
+			name: "Twilio",
+			color: "pink-text-gradient",
+		  },
+		],
+		image: weather,
+		source_code_link: "https://github.com/Ibrah-55/laundryforecast",
+	  },
+	  {
+		name: "Other projects ",
+		description:
+		  "Other projects I have done: https://candypops.co.ke  https://briansworldfitness.com  https://vaug.vercel.app ",
+		tags: [
+		  {
+			name: "Express",
+			color: "blue-text-gradient",
+		  },
+		  {
+			name: "NodeJS",
+			color: "green-text-gradient",
+		  },
+		  {
+			name: "Safaricom Daraja API",
+			color: "pink-text-gradient",
+		  },
+		],
+		image: other,
+		source_code_link: "https://github.com/Ibrah-55 ",
+	  },
   ];
   
   export { services, experiences, skills, projects };

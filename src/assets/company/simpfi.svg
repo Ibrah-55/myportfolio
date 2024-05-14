@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="500" height="500" viewBox="0 0 500 500" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 0 0)"  >
+<g style=""   >
+</g>
+</g>
+<g transform="matrix(14.65 0 0 14.65 250.21 250.08)"  >
+<linearGradient id="SVGID_109" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -8.82 -13.9)"  x1="0" y1="13.8965" x2="17.64" y2="13.8965">
+<stop offset="0%" style="stop-color:rgba(51, 0, 238, 0.98);"/>
+<stop offset="99.024%" style="stop-color:rgba(48, 224, 0, 1);"/>
+</linearGradient>
+<polygon style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_109); fill-rule: nonzero; opacity: 1;"  points="7.08,-13.9 -8.82,1.91 -2.92,1.91 -7.46,13.9 8.82,-1.91 2.92,-1.91 " />
+</g>
+</svg>

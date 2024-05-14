@@ -11,12 +11,17 @@ import django from "./tech/django.png";
 
 import meta from "./company/meta.webp";
 import shopify from "./company/shopify.webp";
-import starbucks from "./company/starbucks.webp";
-import tesla from "./company/tesla.webp";
+import simpfi from "./company/simpfi.svg";
+import sparks from "./company/spark.jpeg";
 
 import fitness from "./fitness.png";
 import kenya from "./kenya.webp";
 import quiz from "./quiz.jpg";
+import links from "./links.webp";
+import weather from "./laundry.webp";
+import other from "./other.jpg";
+
+
 
 export {
   logo,
@@ -31,8 +36,11 @@ export {
   django,
   meta,
   shopify,
-  starbucks,
-  tesla,
+  simpfi,
+  sparks,
   fitness,
-  quiz
+  quiz,
+  links,
+  weather,
+  other,
 };
