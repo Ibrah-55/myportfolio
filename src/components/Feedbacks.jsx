@@ -34,6 +34,9 @@ const FeedbackCard = ({
           <p className='mt-1 text-secondary text-[12px]'>
              {sl3}
           </p>
+          <p className='mt-1 text-secondary text-[12px]'>
+             {sl4}
+          </p>
         </div>
 
         
@@ -70,4 +73,4 @@ const LazyFeedbacks = () => {
   );
 };
 
-export default SectionWrapper(LazyFeedbacks, "");
+export default SectionWrapper(LazyFeedbacks, "skills");
