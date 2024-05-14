@@ -7,9 +7,9 @@ import {
 	starbucks,
 	tesla,
 	shopify,
-	codex,
-	dalle,
-	generator,
+	quiz,
+	fitness,
+	kenya,
   } from "../assets";
   
   export const navLinks = [
@@ -143,21 +143,22 @@ import {
 		  name: "javascript",
 		  color: "green-text-gradient",
 		},
+	
 		{
-		  name: "tailwind",
-		  color: "pink-text-gradient",
-		},
+			name: "Rapid api",
+			color: "pink-text-gradient",
+		  },
 	  ],
-	  image: dalle,
-	  source_code_link: "https://github.com/ElonMusk2002/T-Shirt_3D__Customizer_With_ChatGPT",
+	  image: fitness,
+	  source_code_link: "https://fitness-app-ibrah-55.vercel.app/",
 	},
 	{
-	  name: "CodeX",
+	  name: "Quiz App ",
 	  description:
-		"A powerfull web application that allows user to chat with chatGPT to help with code. No needed vpn or logging ",
+		"A powerfull question App that allows user to access the questions only after Payment. Results are then displayed to the user.Has a admin dash to add and edit questions.",
 	  tags: [
 		{
-		  name: "express",
+		  name: "Express",
 		  color: "blue-text-gradient",
 		},
 		{
@@ -165,33 +166,33 @@ import {
 		  color: "green-text-gradient",
 		},
 		{
-		  name: "openAiAPI",
+		  name: "Safaricom Daraja API",
 		  color: "pink-text-gradient",
 		},
 	  ],
-	  image: codex,
-	  source_code_link: "https://github.com/ElonMusk2002/Codex-ChatGPT",
+	  image: quiz,
+	  source_code_link: "https://github.com/Ibrah-55/quiz-app",
 	},
 	{
-	  name: "Image Generator by DALL-E",
-	  description:
-		"A repository that generates images using OpenAI API key written in Python using Django1. DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions",
-	  tags: [
+		name: "Kenya Airways Booking",
+		description:
+		  "A booking system designed for Kenya Airways, providing users with seamless flight booking experiences. Fetches real-time flight information and manage bookings ",
+		  tags: [
 		{
-		  name: "openAiAPI",
+		  name: "bcryptjs",
 		  color: "blue-text-gradient",
 		},
 		{
-		  name: "Python",
+		  name: "Mysql",
 		  color: "green-text-gradient",
 		},
 		{
-		  name: "Django",
+		  name: "Express",
 		  color: "pink-text-gradient",
 		},
 	  ],
-	  image: generator,
-	  source_code_link: "https://github.com/ElonMusk2002/Image_Generator_DALL-E",
+	  image: kenya,
+	  source_code_link: "https://github.com/Ibrah-55/Kenya-Airways-Booking/tree/main",
 	},
   ];
   

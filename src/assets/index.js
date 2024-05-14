@@ -14,13 +14,13 @@ import shopify from "./company/shopify.webp";
 import starbucks from "./company/starbucks.webp";
 import tesla from "./company/tesla.webp";
 
-import dalle from "./T-shirt.jpg";
-import generator from "./dall-e.jpg";
-import codex from "./codex.png";
+import fitness from "./fitness.png";
+import kenya from "./dall-e.jpg";
+import quiz from "./quiz.jpg";
 
 export {
   logo,
-  generator,
+  kenya,
   backend,
   creator,
   mobile,
@@ -33,6 +33,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  dalle,
-  codex
+  fitness,
+  quiz
 };

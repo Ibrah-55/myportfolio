@@ -76,6 +76,10 @@ const LazyWorks = () => {
 };
 
 const Works = () => {
+  const handleCardClick = (link) => {
+    window.open(link, "_blank");
+  };
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -96,7 +100,9 @@ const Works = () => {
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <div key={`project-${index}`} onClick={() => handleCardClick(project.source_code_link)}>
+            <ProjectCard index={index} {...project} />
+          </div>
         ))}
       </div>
     </>
