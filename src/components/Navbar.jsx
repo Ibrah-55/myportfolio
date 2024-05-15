@@ -62,6 +62,7 @@ const Navbar = () => {
             </li>
           ))}
 <a href='https://ibrahjarvis.hashnode.dev/' target="_blank" rel="noopener noreferrer" class="font-poppins font-medium cursor-pointer text-[16px] text-secondary">Blog</a>
+<a href='https://github.com/Ibrah-55' target="_blank" rel="noopener noreferrer" class="font-poppins font-medium cursor-pointer text-[16px] text-secondary">Github</a>
 
         </ul>
 
@@ -94,6 +95,7 @@ const Navbar = () => {
                 </li>
               ))}
 <a href='https://ibrahjarvis.hashnode.dev/' target="_blank" rel="noopener noreferrer" class="font-poppins font-medium cursor-pointer text-[16px] text-secondary">Blog</a>
+<a href='https://github.com/Ibrah-55' target="_blank" rel="noopener noreferrer" class="font-poppins font-medium cursor-pointer text-[16px] text-secondary">Github</a>
 
             </ul>
           </div>
