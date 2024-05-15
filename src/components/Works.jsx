@@ -109,4 +109,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(LazyWorks, "");
+export default SectionWrapper(LazyWorks, "projects");
