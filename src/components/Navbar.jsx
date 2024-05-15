@@ -61,6 +61,8 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+<a href='https://ibrahjarvis.hashnode.dev/' target="_blank" rel="noopener noreferrer" class="font-poppins font-medium cursor-pointer text-[16px] text-secondary">Blog</a>
+
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -91,6 +93,8 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+<a href='https://ibrahjarvis.hashnode.dev/' target="_blank" rel="noopener noreferrer" class="font-poppins font-medium cursor-pointer text-[16px] text-secondary">Blog</a>
+
             </ul>
           </div>
         </div>

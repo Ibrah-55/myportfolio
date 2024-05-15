@@ -141,7 +141,7 @@ import {
 		sl1: "Remote Pair-Programming",
 		sl2: " Adaptability skills",
 		sl3: "Communication skills",
-		sl4: " attention to detail",
+		sl4: " Attention to detail",
 	  },
 	// {
 	//   testimonial:
