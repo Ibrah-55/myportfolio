@@ -7,7 +7,7 @@
 
 This is my personal portfolio website built using React, Vite, Three.js and other cool libraries!
 
-👉  **[View Live Site]([https://my-portfolio432.vercel.app/](https://ibrahimjarvisportfolio.vercel.app))**  👈
+👉  **[View Live Site]([https://ibrahimjarvisportfolio.vercel.app])**  👈
 
 ![screenshot of personal-webp](Portfolio.png)
 
